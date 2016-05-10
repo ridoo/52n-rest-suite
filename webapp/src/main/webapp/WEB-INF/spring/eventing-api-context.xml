@@ -30,7 +30,6 @@
     <bean class="org.n52.eventing.rest.ConfigurationImpl" name="config">
         <constructor-arg index="0" value="/eventing-config.json" />
     </bean>
-    <bean class="org.n52.eventing.rest.filtering.FilterEngineImpl" />
 
     <!-- delivery -->
     <bean class="org.n52.subverse.delivery.DeliveryProviderRepository" />
